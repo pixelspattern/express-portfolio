@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+
+<%- include('partials/header') %>
+
+<div class="text-center" py-5">
+    <h1 class="display-4"> Hi, Im Matthew Kiprenko</h1>
+    <p class="lead"> University student and It Systems specialist based in ajax</p>
+    <a href="/projects" class="btn btn-dark btn-lg me-2">View my projects</a>
+    <a href="/contact" class="btn btn-dark btn lg me-2">Contact me</a>
+</div>
+
+<%- include('partials/footer.ejs')%>
