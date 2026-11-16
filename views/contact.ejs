@@ -1,0 +1,31 @@
+<%- include('partials/header') %>
+
+<main class="container my-5">
+  <h1><%= title %></h1>
+  <p class="lead">Feel free to reach out.</p>
+
+  <ul class="list-unstyled fs-5">
+    <li><i class="fa-solid fa-envelope"></i> your.email@example.com</li>
+    <li><i class="fa-brands fa-linkedin"></i> <a href="YOUR_LINKEDIN_URL">LinkedIn</a></li>
+    <li><i class="fa-brands fa-github"></i> <a href="YOUR_GITHUB_URL">GitHub</a></li>
+  </ul>
+
+  <!-- Optional simple form (doesn't need to send anything for this assignment) -->
+  <form class="mt-4" style="max-width: 500px;">
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email">
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <text area class="form-control" id="message" rows="4"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+  </form>
+</main>
+
+<%- include('partials/footer') %>
